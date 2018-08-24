@@ -1,0 +1,63 @@
+.bg {
+    /* This image will be displayed fullscreen */
+    background:url("../../Media/Images/graywood1.jpg") no-repeat center center;
+
+    /* Ensure the html element always takes up the full height of the browser window */
+    min-height:100%;
+
+    /* The Magic */
+    background-size:cover;
+}
+
+body{
+    /* Workaround for some mobile browsers */
+    min-height:100%;
+}
+
+.bodybg {
+  background-color: white;
+  }
+
+  .header {
+    height: 125px;
+    width: auto;
+  }
+
+.logo {
+  height: 75px;
+  width: 75px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    color: maroon;
+}
+
+.sunny{
+  width: 100%;
+}
+
+p {
+  font-size: 14px;
+}
+
+.divider {
+  text-align: center;
+  font-size: 12px;
+}
