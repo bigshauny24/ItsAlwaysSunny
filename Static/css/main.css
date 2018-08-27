@@ -38,7 +38,13 @@ body{
   margin-bottom: auto;
   color: black;
   padding: 25px;
+
 }
+
+
+.KA p:hover {
+    color: #005926;
+  }
 
 /* Style the top navigation bar */
 .topnav {
@@ -70,7 +76,7 @@ body{
 
 /* Change color on hover */
 .topnav a:hover {
-    color: maroon;
+    color: #005926;
 }
 
 .sunny{
@@ -106,4 +112,8 @@ p {
   text-align: center;
   font-size: 12px;
   wor
+}
+
+.WWA {
+font-size: 18PX;
 }
