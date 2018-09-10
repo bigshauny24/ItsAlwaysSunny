@@ -1,3 +1,7 @@
+/* .container{
+  display: flex;
+} */
+
 .bg {
     /* This image will be displayed fullscreen */
     background:url("../../Media/Images/graywood1.jpg") no-repeat center center;
@@ -12,6 +16,9 @@
 body{
     /* Workaround for some mobile browsers */
     min-height:80%;
+    width: 62%;
+    margin-left: 19%;
+    border-style: ridge;
 }
 
 .bodybg {
@@ -21,7 +28,7 @@ body{
 
   .header {
     height: 125px;
-    width: auto;
+    width: 300px;
   }
 
 .logo {
@@ -32,12 +39,12 @@ body{
 }
 
 .KA {
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Times New Roman";
   margin-left: 2;
-  margin-bottom: auto;
+
   color: black;
-  padding: 25px;
+  padding: 24%;
 
 }
 
@@ -71,6 +78,7 @@ body{
     line-height: 4px;
     font-size: 14px;
     font-stretch: expanded;
+
 
   }
 
@@ -111,9 +119,18 @@ p {
 .divider {
   text-align: center;
   font-size: 12px;
-  wor
+  
 }
 
+
+.WWA h1, h2{
+  font-size: 12px;
+  font-weight: bold;
+}
 .WWA {
-font-size: 18PX;
+font-size: 12PX;
+height: 360px;
+width: 180px;
+background-color: #005926;
+color: white;
 }
