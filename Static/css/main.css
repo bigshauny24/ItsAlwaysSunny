@@ -22,7 +22,7 @@ body{
 
 }
 
-.bodybg {
+.container {
   background-color: white;
   margin-bottom: 25px;
   }
@@ -45,7 +45,7 @@ body{
   margin-left: 2;
 
   color: black;
-  padding: 24%;
+  padding-top: 24%;
 
 }
 
@@ -63,6 +63,9 @@ body{
       margin: 20px;
       padding-top: -25px;
       padding-bottom: -25px;
+      display: flex;
+      justify-content:center;
+      justify-content: space-between;
 
 
 }
@@ -120,7 +123,15 @@ p {
 .divider {
   text-align: center;
   font-size: 12px;
-  wor
+  border-top: 1px solid black;
+  color: black;
+  text-decoration: none;
+  text-decoration-color: black;
+}
+
+.divider a{
+  color: black;
+  text-decoration: none;
 }
 
 
@@ -134,6 +145,19 @@ height: 360px;
 width: 180px;
 background-color: #005926;
 color: white;
+}
+
+.contact{
+  font-size: 12PX;
+  height: 360px;
+  width: 180px;
+  background-color: #005926;
+  color: white;
+}
+
+.WWD {
+  display: flex;
+  justify-content: space-between;
 }
 
 
